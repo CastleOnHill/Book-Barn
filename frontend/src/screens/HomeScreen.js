@@ -1,7 +1,7 @@
 import "./HomeScreen.css";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-
+import Footer from "../components/Footer";
 // Components
 import Product from "../components/Product";
 
@@ -39,6 +39,7 @@ const HomeScreen = () => {
           ))
         )}
       </div>
+      <Footer />
     </div>
   );
 };
